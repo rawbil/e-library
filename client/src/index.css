@@ -6,6 +6,11 @@
   --color-light: #fff;
 
   /*! fonts */
-  --font-logo: "Bitcount Grid Single", system-ui;
+  --font-logo: "Bitcount", system-ui;
   --font-primary: "Inter", sans-serif;
+
+  /*! breakpoints */
+  --breakpoint-1800px: 1800px;
+  --breakpoint-1000px: 1000px;
+  --breakpoint-600px: 600px;
 }

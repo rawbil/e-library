@@ -10,7 +10,7 @@ import LibraryExams from "./Pages/LibraryExams";
 
 export default function App() {
   return (
-    <div className="text-dark font-primary h-screen">
+    <div className="text-dark font-primary h-screen 1000px:max-w-[90%] w-full mx-auto max-1000px:px-2 max-600px:px-0  ">
       <Routes>
         {/* __ HOME __ */}
         <Route path="/" element={<Navigate to="/library" replace />} />

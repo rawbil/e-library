@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section className="flex flex-col">
       <LibraryHomeNavbar />
-      <div className="">
+      <div className="max-w-[1800px] mx-auto scroll-auto">
       <Outlet /></div>
       <LibraryFooter />
     </section>
