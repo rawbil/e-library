@@ -8,7 +8,7 @@ import Register from "./Pages/Auth/Register";
 
 export default function App() {
   return (
-    <div className="">
+    <div className="text-dark font-primary h-screen">
       <Routes>
         {/* __ HOME __ */}
         <Route path="/" element={<Home />} />
@@ -17,7 +17,9 @@ export default function App() {
         {/* __ADMIN DASHBOARD */}
         <Route path="/dashboard/librarian" element={<AdminDashboard />} />
         {/* __SUPER ADMIN DASHBOARD__ */}
-        <Route path="/dashboard/manager" element={<SuperAdminDashboard />} /> {/* __LOGIN__ */}
+        <Route path="/dashboard/manager" element={<SuperAdminDashboard />} />
+
+        {/* __ AUTH __ */}
       <Route path="/auth/login" element={<Login />} />
       <Route path="/auth/register" element={<Register />} />
       </Routes>

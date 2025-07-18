@@ -1,2 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  /*! colors */
+  --color-dark: #000;
+  --color-light: #fff;
+
+  --font-logo: "Bitcount Grid Single", system-ui;
+  --font-primary: "Inter", sans-serif;
+}
